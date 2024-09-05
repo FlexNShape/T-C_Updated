@@ -1,0 +1,35 @@
+* {
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: white;
+    color: #17181f;
+}
+
+div {
+    font-size: 1rem;
+}
+
+button {
+    text-align: center;
+    background-color: #17181f;
+    color: white;
+    font-weight: bold;
+    border: 0.2rem solid black;
+    font-size: 0.8rem;
+    height: 50px;
+    width: 150px;
+    margin: 0 20px;
+}
+
+button:hover {
+    background-color: #8fff00;
+    color: #17181f;
+    letter-spacing: 0.15cm;
+    box-shadow: 0 0 35px var(--clr);
+    box-shadow: 0 0 1em 0.25em #8fff00,
+                0 0 4em 1em #8fff00,
+                inset 0 0 0.75em 0.25em #8fff00;
+}
